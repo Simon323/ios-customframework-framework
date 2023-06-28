@@ -1,6 +1,20 @@
-# Archive commands
+# CustomFramework
 
-## In terminal cd to the root folder of the Framework project
+CustomFramework is working name.
+
+## Create Framework proj
+In Xcode 
+1. Create new projet
+2. Select Framework type
+![New Framework](assets/new_framework.png)
+3. Add implementation
+![Source code](assets/source_code.png)
+4. Run below commands in root directory of framework project (where is e.g. `CustomFramework.xcodeproj`)
+5. Use output bundle `CustomFramework.xcframework` in Package Project Type as Source
+![Build](assets/build.png)
+
+## Archive commands
+In terminal cd to the root folder of the Framework project
 
 ### Archive for iOS
 
